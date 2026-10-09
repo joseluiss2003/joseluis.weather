@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "joseluis.weather",
+  "name": "Weather",
+  "version": "1.0.0",
+  "author": "José Luis",
+  "license": "MIT",
+  "homepage": "https://github.com/joseluiss2003/joseluis.weather",
+  "description": "Compact weather for the bar with a details popup: current conditions, a click-to-edit location picker, and a multi-day forecast. Data from Open-Meteo, sharing omarchy's stored weather location.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Weather.qml"
+  },
+  "barWidget": {
+    "displayName": "Weather",
+    "description": "Condition icon and temperature; click for current conditions, forecast and location picker",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
